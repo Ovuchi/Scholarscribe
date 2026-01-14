@@ -3,10 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline bg-red-500">Hello world!</h1>
+    <!-- Header -->
+    <header class="sticky top-0 bg-[#FFFFFF] z-50">
+      <nav
+        class="nav-bar w-full h-17.5 border-b border-b-[#90E0EF] flex items-center justify-center"
+      >
+        <div
+          class="inner-nav w-full max-w-85.5 px-4 h-6 flex items-center justify-between"
+        >
+          <p
+            class="logo-text font-body font-semibold text-[14px] leading-[100%] text-[#0077B6]"
+            style="letter-spacing: 0%"
+          >
+            ScholarScribe
+          </p>
+          <img
+            src="./assets/icons/menu-icon.png"
+            alt="menu icon"
+            class="menu-icon w-6 h-6"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-section w-full">
+      <!-- First box (finish your final year project without panic) -->
+
+      <div class="w-85.5 mx-auto mt-11.5 flex flex-col gap-6">
+        <div class="upper-container w-full flex flex-col gap-3">
+          <!-- Trusted by 100+ students -->
+
+          <div
+            class="trusted w-34 h-6.25 rounded-2xl border-[#0077B6] border-[0.5px] py-1 px-2 flex gap-1.5 bg-[#90E0EF]/30"
+          >
+            <img
+              src="./assets/icons/graduation-cap.png"
+              alt="graduation cap"
+              class="graduation-cap w-4 h-4"
+            />
+            <p
+              class="font-body font-normal text-[8px] leading-[100%] text-[#0077B6] m-auto"
+              style="letter-spacing: 0%"
+            >
+              Trusted by 100+ students
+            </p>
+          </div>
+          <!-- First box (finish your final year project without panic) -->
+
+          <div class="text w-85.5 flex flex-col justify-between gap-4">
+            <p
+              class="font-heading font-bold text-[32px] leading-[100%] text-[#0077B6]"
+              style="letter-spacing: 0%"
+            >
+              Finish Your Final Year Project Without the Panic
+            </p>
+
+            <p
+              class="font-body font-normal text-[16px] leading-[100%] text-[#334155]"
+              style="letter-spacing: 0%"
+            >
+              Get custom research support, data analysis,<br />
+              and academic writing from verified academic writers, 100%
+              plagiarism-free.
+            </p>
+          </div>
+        </div>
+
+        <!-- Chat on whatsapp and view our services container -->
+
+        <div class="buttons-container w-full flex flex-col gap-4">
+          <button
+            class="chat-whatsapp w-full h-13 rounded-lg bg-[#FF6A36] flex items-center justify-center gap-3.75 px-8 py-4"
+          >
+            <img
+              src="./assets/icons/whatsapp-icon.png"
+              alt="whatsapp icon"
+              class="whatsapp-icon w-[16.58px] h-[16.67px]"
+            />
+
+            <p
+              class="font-body font-medium text-[16px] leading-[100%] text-[#F8FAFC]"
+              style="letter-spacing: 0%"
+            >
+              Chat on WhatsApp
+            </p>
+          </button>
+
+          <button
+            class="view-services w-full h-12.75 rounded-lg border border-[#FF6A36] flex items-center justify-center"
+          >
+            <p
+              class="font-body font-medium text-[16px] leading-[100%] text-[#FF6A36]"
+              style="letter-spacing: 0%"
+            >
+              View Our Services
+            </p>
+          </button>
+        </div>
+      </div>
+
+      <div class="bg-[#0077B61A]/10 mt-10 pb-20">
+        <!-- Blue line -->
+        <div class="blue-line w-85.5 h-0 border border-[#90E0EF] mx-auto"></div>
+
+        <!-- Ratings -->
+        <div class="rating-container w-85.5 flex justify-between mt-10 mx-auto">
+          <!-- Average Rating -->
+
+          <div class="average-rating h-full flex flex-col gap-1.75">
+            <div class="w-13.75 h-6 flex gap-1.5">
+              <img
+                src="./assets/icons/star-icon.png"
+                alt="Star icon"
+                class="w-6 h-6"
+              />
+              <p
+                class="font-medium text-[16px] text-[#0F172A] leading-[100%] m-auto"
+                style="letter-spacing: 0%"
+              >
+                4.9
+              </p>
+            </div>
+
+            <p
+              class="font-body font-normal text-[12px] leading-[100%] text-[#334155]"
+              style="letter-spacing: 0%"
+            >
+              Average Rating
+            </p>
+          </div>
+          <!-- Happy Students -->
+
+          <div class="happy-students h-full flex flex-col gap-1.75">
+            <div class="w-17.25 h-6 flex gap-1.5">
+              <img
+                src="./assets/icons/users-icon.png"
+                alt="Users icon"
+                class="w-6 h-6"
+              />
+              <p
+                class="font-medium text-[16px] text-[#0F172A] leading-[100%] m-auto"
+                style="letter-spacing: 0%"
+              >
+                100+
+              </p>
+            </div>
+
+            <p
+              class="font-body font-normal text-[12px] leading-[100%] text-[#334155]"
+              style="letter-spacing: 0%"
+            >
+              Happy Students
+            </p>
+          </div>
+
+          <!-- Success Rate -->
+          <div class="success-rate h-full flex flex-col gap-1.75">
+            <div class="w-16 h-6 flex gap-1.5">
+              <img
+                src="./assets/icons/trending-up.png"
+                alt="Trending Up icon"
+                class="w-6 h-6"
+              />
+              <p
+                class="font-medium text-[16px] text-[#0F172A] leading-[100%] m-auto"
+                style="letter-spacing: 0%"
+              >
+                98%
+              </p>
+            </div>
+
+            <p
+              class="font-body font-normal text-[12px] leading-[100%] text-[#334155]"
+              style="letter-spacing: 0%"
+            >
+              Success Rate
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Approved -->
+        <div
+          class="project-approved relative w-full max-w-87 mt-10 flex flex-col rounded-lg mx-auto overflow-hidden"
+        >
+          <div
+            class="approved absolute right-0 w-45.75 h-13 rounded-lg px-3 py-2.5 flex items-center justify-center gap-2.5 bg-[#FFFFFF] shadow-md z-10"
+          >
+            <img
+              src="./assets/icons/circle-check-big.png"
+              alt="Approved icon"
+              class="w-8 h-8"
+            />
+            <p
+              class="font-body font-medium text-[14px] leading-[100%] text-[#0077B6]"
+              style="letter-spacing: 0%"
+            >
+              Project Approved
+            </p>
+          </div>
+
+          <img
+            src="./assets/images/Frame 3.png"
+            alt="Girl writing"
+            class="w-full h-auto object-cover mt-6"
+          />
+        </div>
+      </div>
+    </section>
 
     <script src="./js/script.js"></script>
   </body>
