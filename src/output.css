@@ -359,6 +359,12 @@
   .h-93\.25 {
     height: calc(var(--spacing) * 93.25);
   }
+  .h-103 {
+    height: calc(var(--spacing) * 103);
+  }
+  .h-103\.25 {
+    height: calc(var(--spacing) * 103.25);
+  }
   .h-119 {
     height: calc(var(--spacing) * 119);
   }
@@ -569,6 +575,12 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-13 {
+    gap: calc(var(--spacing) * 13);
+  }
+  .gap-13\.5 {
+    gap: calc(var(--spacing) * 13.5);
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -740,6 +752,9 @@
   .text-\[16px\] {
     font-size: 16px;
   }
+  .text-\[18px\] {
+    font-size: 18px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
@@ -748,6 +763,10 @@
   }
   .text-\[32px\] {
     font-size: 32px;
+  }
+  .leading-5 {
+    --tw-leading: calc(var(--spacing) * 5);
+    line-height: calc(var(--spacing) * 5);
   }
   .leading-\[100\%\] {
     --tw-leading: 100%;
