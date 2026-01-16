@@ -332,6 +332,12 @@
   .h-17\.5 {
     height: calc(var(--spacing) * 17.5);
   }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+  .h-24 {
+    height: calc(var(--spacing) * 24);
+  }
   .h-48 {
     height: calc(var(--spacing) * 48);
   }
@@ -380,8 +386,17 @@
   .h-\[21\.33px\] {
     height: 21.33px;
   }
+  .h-\[22\.17px\] {
+    height: 22.17px;
+  }
   .h-\[26\.67px\] {
     height: 26.67px;
+  }
+  .h-\[28px\] {
+    height: 28px;
+  }
+  .h-\[46\.67px\] {
+    height: 46.67px;
   }
   .h-\[100px\] {
     height: 100px;
@@ -410,6 +425,9 @@
   .w-6\.5 {
     width: calc(var(--spacing) * 6.5);
   }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
@@ -431,8 +449,14 @@
   .w-17\.25 {
     width: calc(var(--spacing) * 17.25);
   }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
   .w-23 {
     width: calc(var(--spacing) * 23);
+  }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
   }
   .w-25 {
     width: calc(var(--spacing) * 25);
@@ -449,6 +473,9 @@
   .w-35\.5 {
     width: calc(var(--spacing) * 35.5);
   }
+  .w-37 {
+    width: calc(var(--spacing) * 37);
+  }
   .w-44 {
     width: calc(var(--spacing) * 44);
   }
@@ -461,11 +488,20 @@
   .w-67 {
     width: calc(var(--spacing) * 67);
   }
+  .w-69 {
+    width: calc(var(--spacing) * 69);
+  }
   .w-73 {
     width: calc(var(--spacing) * 73);
   }
   .w-73\.5 {
     width: calc(var(--spacing) * 73.5);
+  }
+  .w-81 {
+    width: calc(var(--spacing) * 81);
+  }
+  .w-83 {
+    width: calc(var(--spacing) * 83);
   }
   .w-85 {
     width: calc(var(--spacing) * 85);
@@ -488,11 +524,23 @@
   .w-\[21\.33px\] {
     width: 21.33px;
   }
+  .w-\[23\.33px\] {
+    width: 23.33px;
+  }
+  .w-\[28px\] {
+    width: 28px;
+  }
+  .w-\[55\.44px\] {
+    width: 55.44px;
+  }
   .w-\[81\.33px\] {
     width: 81.33px;
   }
   .w-\[92px\] {
     width: 92px;
+  }
+  .w-\[142px\] {
+    width: 142px;
   }
   .w-\[342px\] {
     width: 342px;
@@ -542,6 +590,12 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * 0.5);
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -575,11 +629,20 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
+  }
   .gap-13 {
     gap: calc(var(--spacing) * 13);
   }
   .gap-13\.5 {
     gap: calc(var(--spacing) * 13.5);
+  }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
+  }
+  .gap-\[96px\] {
+    gap: 96px;
   }
   .overflow-hidden {
     overflow: hidden;
@@ -631,6 +694,9 @@
   }
   .bg-\[\#000000\] {
     background-color: #000000;
+  }
+  .bg-\[\#1F2937\] {
+    background-color: #1F2937;
   }
   .bg-\[\#0077B6\] {
     background-color: #0077B6;
@@ -704,6 +770,9 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
@@ -718,6 +787,9 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
@@ -737,8 +809,14 @@
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
   }
+  .pb-44 {
+    padding-bottom: calc(var(--spacing) * 44);
+  }
   .text-center {
     text-align: center;
+  }
+  .text-right {
+    text-align: right;
   }
   .text-\[8px\] {
     font-size: 8px;
@@ -758,11 +836,17 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
   .text-\[26px\] {
     font-size: 26px;
   }
   .text-\[32px\] {
     font-size: 32px;
+  }
+  .text-\[216px\] {
+    font-size: 216px;
   }
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
@@ -798,6 +882,9 @@
   .text-\[\#000000\] {
     color: #000000;
   }
+  .text-\[\#1F2937\] {
+    color: #1F2937;
+  }
   .text-\[\#0077B6\] {
     color: #0077B6;
   }
@@ -816,6 +903,9 @@
   .text-\[\#860000\] {
     color: #860000;
   }
+  .text-\[\#D1D5DB\] {
+    color: #D1D5DB;
+  }
   .text-\[\#F8FAFC\] {
     color: #F8FAFC;
   }
@@ -824,6 +914,9 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .italic {
+    font-style: italic;
   }
   .underline {
     text-decoration-line: underline;
