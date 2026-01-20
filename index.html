@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -821,10 +821,153 @@
         </p>
       </div>
 
-      <div class="guarantee-carousel w-full flex gap-2 overflow-hidden">
+      <!-- Carousel -->
+      <div
+        class="guarantee-carousel w-full flex gap-2 mx-auto overflow-x-auto snap-x snap-mandatory scroll-smooth touch-pan-y"
+      >
         <!-- Testimonial Card 1 -->
         <div
-          class="card-1 w-81 rounded-lg px-6 py-8 flex flex-col gap-16 bg-[#1F2937]"
+          class="card-1 w-81 rounded-lg px-6 py-8 flex flex-col gap-16 bg-[#1F2937] snap-center shrink-0"
+        >
+          <div class="stars w-37 flex gap-0.5 border">
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+          </div>
+
+          <div class="testimony w-69 flex flex-col gap-16">
+            <div class="testimony-main w-full flex flex-col gap-2">
+              <div
+                class="quote-container w-20 h-20 flex items-center justify-center"
+              >
+                <img
+                  src="./assets/icons/big-quotation-mark.png"
+                  alt="Big Quotation Mark"
+                  class="w-[55.44px] h-[46.67px]"
+                />
+              </div>
+
+              <p
+                class="font-body font-normal text-[16px] text-[#F8FAFC] leading-[100%]"
+              >
+                I procrastinated until two weeks before submission. I thought I
+                was going to have an extra year. ScholarScribe calmed me down
+                and delivered Chapter 1-3 in just 4 days. They literally saved
+                my degree.
+              </p>
+            </div>
+
+            <div class="author flex flex-col gap-1.5">
+              <p
+                class="font-heading font-semibold text-[16px] text-[#F8FAFC] leading-[100%]"
+              >
+                Dabbie G.
+              </p>
+
+              <p
+                class="font-body font-normal text-[14px] text-[#D1D5DB] leading-[100%] italic"
+              >
+                BSc Political Science, RSU
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div
+          class="card-1 w-81 rounded-lg px-6 py-8 flex flex-col gap-16 bg-[#1F2937] snap-center shrink-0"
+        >
+          <div class="stars w-37 flex gap-0.5 border">
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+            <img
+              src="./assets/icons/star-icon.png"
+              alt="Star Icon"
+              class="w-7 h-7"
+            />
+          </div>
+
+          <div class="testimony w-69 flex flex-col gap-16">
+            <div class="testimony-main w-full flex flex-col gap-2">
+              <div
+                class="quote-container w-20 h-20 flex items-center justify-center"
+              >
+                <img
+                  src="./assets/icons/big-quotation-mark.png"
+                  alt="Big Quotation Mark"
+                  class="w-[55.44px] h-[46.67px]"
+                />
+              </div>
+
+              <p
+                class="font-body font-normal text-[16px] text-[#F8FAFC] leading-[100%]"
+              >
+                I procrastinated until two weeks before submission. I thought I
+                was going to have an extra year. ScholarScribe calmed me down
+                and delivered Chapter 1-3 in just 4 days. They literally saved
+                my degree.
+              </p>
+            </div>
+
+            <div class="author flex flex-col gap-1.5">
+              <p
+                class="font-heading font-semibold text-[16px] text-[#F8FAFC] leading-[100%]"
+              >
+                Dabbie G.
+              </p>
+
+              <p
+                class="font-body font-normal text-[14px] text-[#D1D5DB] leading-[100%] italic"
+              >
+                BSc Political Science, RSU
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Card 3 -->
+        <div
+          class="card-1 w-81 rounded-lg px-6 py-8 flex flex-col gap-16 bg-[#1F2937] snap-center shrink-0"
         >
           <div class="stars w-37 flex gap-0.5 border">
             <img
@@ -892,6 +1035,7 @@
           </div>
         </div>
       </div>
+
       <!-- Average Rating, Verified Reviews, and Repeart Customers -->
       <div
         class="rating-and-verified-reviews w-full mt-8 flex flex-col gap-12 rounded-lg px-6"
@@ -945,6 +1089,230 @@
               Repeat Customers
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer w-full bg-[#222222] relative pt-40 pb-10">
+      <div
+        class="ready-to-defend absolute left-1/2 -translate-x-1/2 top-0 -translate-y-[30%] w-85.5 bg-[#1F2937] rounded-2xl border border-[#0077B6] shadow-[#90E0EF] flex justify-center items-center gap-2.5 px-4 py-10"
+      >
+        <div class="ready-to-defend-main w-77.5 flex flex-col gap-6">
+          <div class="w-full flex flex-col gap-4">
+            <p
+              class="font-heading font-semibold text-[24px] text-center text-[#FFFFFF] leading-[100%]"
+            >
+              Ready to defend with confidence?
+            </p>
+
+            <p
+              class="font-body font-normal text-[14px] text-center text-[#F8FAFC] leading-[100%]"
+            >
+              Join 100+ students who trust ScholarScribe
+            </p>
+          </div>
+
+          <div class="w-51.5 flex flex-col gap-4 items-center mx-auto">
+            <button
+              class="w-47 h-12.75 gap-2 flex items-center justify-center rounded-lg px-8 py-4 bg-[#FF6A36]"
+            >
+              <p
+                class="font-body font-medium text-[16px] text-[#F8FAFC] leading-[100%]"
+              >
+                Start my Project
+              </p>
+            </button>
+            <p
+              class="font-body font-normal text-[14px] text-center text-[#FFFFFF] leading-[100%] italic"
+            >
+              Avg response timee: 15 mins
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer main -->
+      <div class="footer-main w-85.5 mt-14 mx-auto flex flex-col gap-11">
+        <div class="footer-main-heading w-77 flex flex-col gap-6">
+          <p
+            class="font-heading font-bold text-[32px] text-[#FF6A36] leading-[100%]"
+          >
+            ScholarScribe
+          </p>
+
+          <p
+            class="font-body font-normal text-[16px text-[#FFFFFF] leading-[100%]"
+          >
+            Your dedicated partner in academic success. We provide ethical,
+            high- <br />quality research assistance and writing support to help
+            you cross the finish line with confidence.
+          </p>
+        </div>
+
+        <div class="footer-main-body w-77 flex flex-col gap-11">
+          <!-- Services -->
+          <div class="services w-full flex flex-col gap-4.5">
+            <div class="services-head">
+              <p
+                class="font-body font-semibold text-[16px] text-[#FFFFFF] leading-[100%]"
+              >
+                Services
+              </p>
+            </div>
+            <div class="services-links w-full flex flex-col gap-4">
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Undergraduate Project</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Master's Dissertation</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Academic Articles and Essays</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Data Analysis and Interpretation</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Seminar Papers and Slides</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Research Proposals</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Editing & Proofreading</a
+              >
+            </div>
+          </div>
+
+          <!-- Company -->
+          <div class="company w-full flex flex-col gap-4.5">
+            <div class="company-head">
+              <p
+                class="font-body font-semibold text-[16px] text-[#FFFFFF] leading-[100%]"
+              >
+                Company
+              </p>
+            </div>
+            <div class="company-links w-full flex flex-col gap-4">
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Our Services</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Blog</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >Pricing</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >FAQs</a
+              >
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="contact w-full flex flex-col gap-4.5">
+            <div class="contact-head">
+              <p
+                class="font-body font-semibold text-[14px] text-[#FFFFFF] leading-[100%]"
+              >
+                Contact
+              </p>
+            </div>
+            <div class="contact-links w-full flex flex-col gap-4">
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >📩 Email: support@scholarscribe.com</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >💬 WhatsApp: +234 903 598 5003</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >🕒 Support: Mon - Sat, 8am - 8pm</a
+              >
+              <a
+                href="#"
+                class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+                >📍 Location: Available Worldwide</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="horizontal-line w-85.5 h-0 mt-11 mx-auto border border-[#FFFFFF]"
+      ></div>
+
+      <!-- Rights Reserved and Privacy Policy -->
+      <div class="rights-reserved w-83.25 flex flex-col gap-4 mx-auto mt-10">
+        <p
+          class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+        >
+          © 2026 ScholarScribe. All rights reserved.
+        </p>
+
+        <div class="privacy-policy-links w-full flex gap-2">
+          <a
+            href="#"
+            class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+            >Privacy Policy
+          </a>
+          <a
+            href="#"
+            class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+          >
+            •
+          </a>
+          <a
+            href="#"
+            class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+            >Terms of Service
+          </a>
+          <a
+            href="#"
+            class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+          >
+            •
+          </a>
+          <a
+            href="#"
+            class="font-body font-normal text-[14px] text-[#FFFFFF] leading-[100%]"
+          >
+            Fair Use Policy
+          </a>
         </div>
       </div>
     </section>
