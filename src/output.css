@@ -9,9 +9,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-6xl: 72rem;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -469,6 +469,12 @@
   .max-w-87 {
     max-width: calc(var(--spacing) * 87);
   }
+  .max-w-138 {
+    max-width: calc(var(--spacing) * 138);
+  }
+  .max-w-138\.25 {
+    max-width: calc(var(--spacing) * 138.25);
+  }
   .flex-shrink {
     flex-shrink: 1;
   }
@@ -489,6 +495,9 @@
   .-translate-y-\[30\%\] {
     --tw-translate-y: calc(30% * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .touch-pan-y {
     --tw-pan-y: pan-y;
@@ -575,6 +584,12 @@
   .gap-16 {
     gap: calc(var(--spacing) * 16);
   }
+  .gap-23 {
+    gap: calc(var(--spacing) * 23);
+  }
+  .gap-31 {
+    gap: calc(var(--spacing) * 31);
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -655,9 +670,6 @@
   }
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
-  }
-  .bg-amber-400 {
-    background-color: var(--color-amber-400);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -852,13 +864,6 @@
       }
     }
   }
-  .hover\:bg-\[\#FF6A36\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #FF6A36;
-      }
-    }
-  }
   .hover\:text-\[\#0077B6\] {
     &:hover {
       @media (hover: hover) {
@@ -873,9 +878,47 @@
       }
     }
   }
+  .md\:max-w-6xl {
+    @media (width >= 48rem) {
+      max-width: var(--container-6xl);
+    }
+  }
+  .md\:text-\[20px\] {
+    @media (width >= 48rem) {
+      font-size: 20px;
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
+  .lg\:max-w-319\.5 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 319.5);
+    }
+  }
+  .lg\:text-\[24px\] {
+    @media (width >= 64rem) {
+      font-size: 24px;
+    }
+  }
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+section {
+  scroll-margin-top: 100px;
 }
 @property --tw-translate-x {
   syntax: "*";

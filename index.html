@@ -12,24 +12,61 @@
         class="nav-bar w-full h-17.5 border-b border-b-[#90E0EF] flex items-center justify-center"
       >
         <div
-          class="inner-nav w-full max-w-85.5 px-4 h-6 flex items-center justify-between"
+          class="inner-nav w-full max-w-85.5 md:max-w-6xl lg:max-w-319.5 h-6 flex items-center justify-between"
         >
-          <p
-            class="logo-text font-body font-semibold text-[14px] leading-[100%] text-[#0077B6]"
-            style="letter-spacing: 0%"
+          <a
+            href="#"
+            class="logo-text font-body font-semibold text-[14px] md:text-[20px] lg:text-[24px] leading-[100%] text-[#0077B6] cursor-pointer"
           >
             ScholarScribe
-          </p>
-          <button id="menu-btn" class="hover:cursor-pointer">
+          </a>
+
+          <button id="menu-btn" class="hover:cursor-pointer lg:hidden">
             <img
               src="./assets/icons/menu-icon.png"
               alt="menu icon"
               class="menu-icon w-6 h-6"
             />
           </button>
+
+          <!-- Desktop Menu -->
+          <div class="desktop-menu hidden lg:flex gap-31">
+            <div
+              class="left-desktop-menu flex max-w-138.25 gap-23 justify-between"
+            >
+              <a
+                href="./index.html"
+                class="home-link active font-body font-normal text-[16px] leading-[100%] text-[#0F172A]"
+                >Home</a
+              >
+              <a
+                href="#"
+                class="about-link font-body font-normal text-[16px] leading-[100%] text-[#0F172A]"
+                >About Us</a
+              >
+              <a
+                href="#"
+                class="services-link font-body font-normal text-[16px] leading-[100%] text-[#0F172A]"
+                >Our Services</a
+              >
+              <a
+                href="#"
+                class="blog-link font-body font-normal text-[16px] leading-[100%] text-[#0F172A]"
+                >Blog</a
+              >
+            </div>
+            <div class="right-desktop-menu flex justify-between">
+              <a
+                href="#"
+                class="contact-link font-body font-normal text-[16px] leading-[100%] text-[#0F172A]"
+                >Contact Us</a
+              >
+            </div>
+          </div>
         </div>
       </nav>
 
+      <!-- Mobile Menu -->
       <div
         id="mobile-menu"
         class="hidden absolute top-17.5 left-0 w-full bg-white border-b border-[#90E0EF] shadow-lg flex-col px-6 py-6 gap-4"
@@ -1489,13 +1526,6 @@
         </div>
       </div>
     </section>
-
-    <!-- JQuery CDN -->
-    <script
-      src="https://code.jquery.com/jquery-4.0.0.js"
-      integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
-      crossorigin="anonymous"
-    ></script>
 
     <!-- JavaScript -->
     <script src="./js/script.js"></script>

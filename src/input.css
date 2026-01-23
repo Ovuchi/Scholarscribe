@@ -7,3 +7,13 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+section {
+  scroll-margin-top: 100px;
+}
